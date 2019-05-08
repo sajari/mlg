@@ -1,0 +1,142 @@
+train-path: ./data/mq2008.train
+test-path: ./data/mq2008.test
+valid-path: ./data/mq2008.vali
+features:
+  - name: "f1"
+    default: 0
+    type: float
+  - name: "f2"
+    default: 0
+    type: float
+  - name: "f3"
+    default: 0
+    type: float
+  - name: "f4"
+    default: 0
+    type: float
+  - name: "f5"
+    default: 0
+    type: float
+  - name: "f6"
+    default: 0
+    type: float
+  - name: "f7"
+    default: 0
+    type: float
+  - name: "f8"
+    default: 0
+    type: float
+  - name: "f9"
+    default: 0
+    type: float
+  - name: "f10"
+    default: 0
+    type: float
+  - name: "f11"
+    default: 0
+    type: float
+  - name: "f12"
+    default: 0
+    type: float
+  - name: "f13"
+    default: 0
+    type: float
+  - name: "f14"
+    default: 0
+    type: float
+  - name: "f15"
+    default: 0
+    type: float
+  - name: "f16"
+    default: 0
+    type: float
+  - name: "f17"
+    default: 0
+    type: float
+  - name: "f18"
+    default: 0
+    type: float
+  - name: "f19"
+    default: 0
+    type: float
+  - name: "f20"
+    default: 0
+    type: float
+  - name: "f21"
+    default: 0
+    type: float
+  - name: "f22"
+    default: 0
+    type: float
+  - name: "f23"
+    default: 0
+    type: float
+  - name: "f24"
+    default: 0
+    type: float
+  - name: "f25"
+    default: 0
+    type: float
+  - name: "f26"
+    default: 0
+    type: float
+  - name: "f27"
+    default: 0
+    type: float
+  - name: "f28"
+    default: 0
+    type: float
+  - name: "f29"
+    default: 0
+    type: float
+  - name: "f30"
+    default: 0
+    type: float
+  - name: "f31"
+    default: 0
+    type: float
+  - name: "f32"
+    default: 0
+    type: float
+  - name: "f33"
+    default: 0
+    type: float
+  - name: "f34"
+    default: 0
+    type: float
+  - name: "f35"
+    default: 0
+    type: float
+  - name: "f36"
+    default: 0
+    type: float
+  - name: "f37"
+    default: 0
+    type: float
+  - name: "f38"
+    default: 0
+    type: float
+  - name: "f39"
+    default: 0
+    type: float
+  - name: "f40"
+    default: 0
+    type: float
+  - name: "f41"
+    default: 0
+    type: float
+  - name: "f42"
+    default: 0
+    type: float
+  - name: "f43"
+    default: 0
+    type: float
+  - name: "f44"
+    default: 0
+    type: float
+  - name: "f45"
+    default: 0
+    type: float
+  - name: "f46"
+    default: 0
+    type: float

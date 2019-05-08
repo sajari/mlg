@@ -1,0 +1,33 @@
+tensorflow:
+  - name: dnn
+    template: classifier
+    checkpoint: 25
+    save-steps: 1000
+    batch-size: 200
+    train-steps: 2000
+    model-dir: ./models/dnn2
+    hidden-units: [20, 10, 5]
+xgboost:
+  - name: xgb
+    template: classifier
+    model-dir: ./models/xgb/xgb.bin
+    config:
+      max_depth: 20
+      estimators: 300
+      learning_rate: 0.03
+      # gamma: 1
+      # objective: 
+      # min-child-weight:
+      # max-delta-step:
+      # sub-sample:
+      # col-sample-by-tree:
+      # col-sample-by-level:
+      # reg-alpha:
+      # reg-lambda:
+      # scale-pos-weight:
+      # base-score:
+      # random-state:
+      # booster: "gbtree"
+
+    
+

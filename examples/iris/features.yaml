@@ -1,0 +1,22 @@
+train-path: ./data/iris.train.csv
+test-path: ./data/iris.test.csv
+features:
+  - name: sepal-length
+    desc: sepal length in cm
+    default: 0
+    type: float
+  - name: sepal-width
+    desc: sepal width in cm
+    default: 0
+    type: float
+  - name: petal-length
+    desc: petal length in cm
+    default: 0
+    type: float
+  - name: petal-width
+    desc: petal width in cm
+    default: 0
+    type: float
+classifier:
+  name: Species
+  classes: ["Iris-setosa", "Iris-versicolor", "Iris-virginica"]

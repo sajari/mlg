@@ -1,0 +1,39 @@
+train-path: ./data/winequality-red.train.csv
+test-path: ./data/winequality-red.test.csv 
+features:
+  - name: fixed-acidity
+    default: 0
+    type: float
+  - name: volatile-cidity
+    default: 0
+    type: float
+  - name: citric-acid
+    default: 0
+    type: float
+  - name: residual-sugar
+    default: 0
+    type: float
+  - name: chlorides
+    default: 0
+    type: float
+  - name: free-sulfur-dioxide
+    default: 0
+    type: float
+  - name: total-sulfur-dioxide
+    default: 0
+    type: float
+  - name: density
+    default: 0
+    type: float
+  - name: pH
+    default: 0
+    type: float
+  - name: sulphates
+    default: 0
+    type: float
+  - name: alcohol
+    default: 0
+    type: float
+
+regressor:
+  name: quality

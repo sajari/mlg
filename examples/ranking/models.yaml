@@ -1,0 +1,12 @@
+xgboost:
+  - name: xgb
+    template: ranker
+    model-dir: ./models/xgb/xgb.bin
+    config:
+      objective: 'rank:pairwise'
+      num_boost_rounds: 4
+      eta: 0.1 
+      gamma: 1.0
+      min_child_weight: 0.1
+      max_depth: 6
+    

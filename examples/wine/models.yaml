@@ -1,0 +1,11 @@
+xgboost:
+  - name: xgb
+    template: regressor
+    model-dir: ./models/xgb/xgb.bin
+    config:
+      max-depth: 8
+      estimators: 300
+      learning-rate: 0.05
+      gamma: 1
+    
+
